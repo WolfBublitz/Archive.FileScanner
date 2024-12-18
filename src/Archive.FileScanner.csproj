@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <ProjectUrl>https://github.com/WolfBublitz/Archive.FileScanner</ProjectUrl>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <WarningsAsErrors>Nullable</WarningsAsErrors>
@@ -19,6 +20,7 @@
     <PackageReference Include="GitVersion.MsBuild" Version="6.1.0">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(UseProjectReferences)' != 'true'">
